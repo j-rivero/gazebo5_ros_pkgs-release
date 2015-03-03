@@ -1,4 +1,4 @@
-From 865423b25b9e29a62017204ad90171f181af943d Mon Sep 17 00:00:00 2001
+From 9c7f0f6d791bc4d3faf2d1f81f354d803f828077 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Tue, 3 Mar 2015 23:38:21 +0100
 Subject: [PATCH 1/2] Patch name to release -4 version
@@ -8,7 +8,7 @@ Subject: [PATCH 1/2] Patch name to release -4 version
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/debian/control.em b/debian/control.em
-index 2e52010..759b27e 100644
+index 175af20..a7f88e0 100644
 --- a/debian/control.em
 +++ b/debian/control.em
 @@ -8,7 +8,7 @@ Build-Depends: debhelper (>= @(debhelper_version).0.0), @(', '.join(BuildDepends
