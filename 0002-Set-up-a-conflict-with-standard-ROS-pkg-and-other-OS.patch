@@ -1,4 +1,4 @@
-From 67b55f5099edfbf6e19ea95acfbd5cdc5a81b90d Mon Sep 17 00:00:00 2001
+From 386ea70964d2c23eae62566c5e8d0f94ab4539de Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Tue, 3 Mar 2015 23:38:38 +0100
 Subject: [PATCH 2/2] Set up a conflict with standard ROS pkg and other OSRF
@@ -9,7 +9,7 @@ Subject: [PATCH 2/2] Set up a conflict with standard ROS pkg and other OSRF
  1 file changed, 1 insertion(+)
 
 diff --git a/debian/control.em b/debian/control.em
-index 759b27e..45ff970 100644
+index a7f88e0..cba26f2 100644
 --- a/debian/control.em
 +++ b/debian/control.em
 @@ -11,4 +11,5 @@ Standards-Version: 3.9.2
