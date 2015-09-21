@@ -2,6 +2,23 @@
 Changelog for package gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.9 (2015-08-16)
+------------------
+* Adds range plugin for infrared and ultrasound sensors from PAL Robotics
+* Import changes from jade-branch
+* Add range world and launch file
+* Add ifdefs to fix build with gazebo2
+* Use Joint::SetParam for joint velocity motors
+* Set GAZEBO_CXX_FLAGS to fix c++11 compilation errors
+* Contributors: Bence Magyar, Jose Luis Rivero, Steven Peters
+
+2.4.8 (2015-03-17)
+------------------
+* fixed mistake at calculation of joint velocity
+* [gazebo_ros_diff_drive] force call SetMaxForce since this Joint::Reset in gazebo/physics/Joint.cc reset MaxForce to zero and ModelPlugin::Reset is called after Joint::Reset
+* add PointCloudCutoffMax
+* Contributors: Kei Okada, Michael Ferguson, Sabrina Heerklotz
+
 2.4.7 (2014-12-15)
 ------------------
 * Merge pull request `#276 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/276>`_ from ros-simulation/gazebo_ogre_compile_flag_fix
